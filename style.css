@@ -22,15 +22,14 @@ form{
     flex-direction: column;
     border-radius: 20%;
     gap: 20px;
-    background-image: linear-gradient(rgba(0, 2, 2, 0.3),rgba(1, 19, 22, 0.3));
+    background-image: linear-gradient(to right,rgba(0, 2, 2, 0.3),rgba(1, 19, 22, 0.3));
     backdrop-filter: blur(50px);   
 }
 label{
     color: white;
-    padding: 2px;
+    text-decoration: underline;
     text-transform: uppercase;
     letter-spacing: 2px;
-    transition: all 3s linear;
 }
 .sub{
     padding: 16px;
